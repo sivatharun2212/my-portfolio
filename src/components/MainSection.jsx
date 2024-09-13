@@ -1,9 +1,9 @@
 import React from "react";
-
+import Welcome from "./Welcome";
 const MainSection = () => {
 	return (
-		<div className="w-full mx-[16%] p-4">
-			<h1 className="text-white text-center font-poppins font-bold text-3xl">DEVELOPMENT IN PROGRESS</h1>
+		<div className="w-full mx-0 sm:mx-[18%] p-4 pr-[18%]">
+			<Welcome />
 		</div>
 	);
 };

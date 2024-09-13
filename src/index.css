@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	user-select: none;
+}
 @layer components {
 	/* white - #fbfafb */
 	.whiteColor {
@@ -21,6 +24,9 @@
 	.aquaMentheBg {
 		@apply bg-[#00ffbf];
 	}
+	.aquaMentheBorder {
+		@apply border-[#00ffbf];
+	}
 
 	/* Black Currant - #392131 */
 	.blackCurrantColor {
@@ -36,6 +42,10 @@
 	}
 	.blackBeanBg {
 		@apply bg-[#230C13];
+	}
+
+	.impText {
+		@apply aquaMentheColor text-shadow-glow-mint tracking-widest;
 	}
 }
 

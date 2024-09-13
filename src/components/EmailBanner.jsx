@@ -10,7 +10,7 @@ const EmailBanner = () => {
 					onMouseEnter={() => setIsEmailHovered(true)}
 					onMouseLeave={() => setIsEmailHovered(false)}
 					href="mailto:sivatharun2212@gmail.com"
-					className={`whiteColor font-firacode font-semibold text-lg tracking-widest`}>
+					className={`whiteColor font-firacode font-semibold text-sm sm:text-md md:text-lg lg:text-xl  tracking-widest `}>
 					sivatharun2212@gmail
 					<span
 						className={`inline-block transition-transform duration-300 ${
