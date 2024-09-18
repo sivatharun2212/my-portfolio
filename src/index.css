@@ -8,40 +8,40 @@ body {
 @layer components {
 	/* white - #fbfafb */
 	.whiteColor {
-		@apply text-[#fbfafb];
+		@apply text-[#F6F6F6];
 	}
 	.whiteBg {
-		@apply bg-[#fbfafb];
+		@apply bg-[#F6F6F6];
 	}
 	.whiteBorder {
-		@apply border-[#fbfafb];
+		@apply border-[#F6F6F6];
 	}
 
 	/* Aqua Menthe - #00ffbf */
 	.aquaMentheColor {
-		@apply text-[#00ffbf];
+		@apply text-[#b7fcab];
 	}
 	.aquaMentheBg {
-		@apply bg-[#00ffbf];
+		@apply bg-[#b7fcab];
 	}
 	.aquaMentheBorder {
-		@apply border-[#00ffbf];
+		@apply border-[#b7fcab];
 	}
 
 	/* Black Currant - #392131 */
 	.blackCurrantColor {
-		@apply text-[#392131];
+		@apply text-[#1B1B1B];
 	}
 	.blackCurrantBg {
-		@apply bg-[#392131];
+		@apply bg-[#1B1B1B];
 	}
 
 	/* Black Bean - #230C13 */
 	.blackBeanColor {
-		@apply text-[#230C13];
+		@apply text-[#00000094];
 	}
 	.blackBeanBg {
-		@apply bg-[#230C13];
+		@apply bg-[#00000094];
 	}
 
 	.impText {

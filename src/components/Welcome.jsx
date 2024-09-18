@@ -38,7 +38,7 @@ const Welcome = () => {
 				<h1 className="font-semibold text-base sm:text-lg  md:text-xl font-poppins whiteColor">
 					Navigating the Digital Landscape, One Codeline at a Time
 				</h1>
-				<p className="font-firacode font-medium whiteColor leading-relaxed text-sm sm:base md:text-lg ">
+				<p className="font-firacode font-medium whiteColor leading-relaxed text-xs sm:text-sm md:text-base">
 					As a passionate <span className="impText">Frontend Developer</span>, I create engaging digital experiences. With a
 					recent B.E. in Computer Science and Engineering, I've honed my skills in{" "}
 					<span className="impText">JavaScript, React.js, Tailwind CSS, Node.js</span> and{" "}
@@ -47,7 +47,7 @@ const Welcome = () => {
 					abilities.
 				</p>
 				<a
-					className="blackBeanBg p-2 rounded border-[1px] md:text-base whiteBorder tracking-wider font-semibold whiteColor"
+					className="text-xs sm:text-sm md:text-base  tracking-wider font-semibold whiteColor font-poppins"
 					href="#work">
 					Explore My Work!
 				</a>

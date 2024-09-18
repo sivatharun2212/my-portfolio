@@ -9,14 +9,14 @@ const SocialSection = () => {
 			<div className="border-t-[2px] whiteBorder w-[60%] h-full ">
 				<div className="w-full h-[37%] sm:h-[35%] md:h-[30%]  border-r-[2px] whiteBorder"></div>
 				<div className="w-full h-[25%] sm:h-[30%] md:h-[40%]  relative">
-					<div className="blackBeanBg w-12 sm:w-14 md:w-16 h-full absolute -right-6 sm:-right-7 md:-right-8 rounded-full  flex flex-col justify-around items-center">
+					<div className="blackBeanBg w-12 sm:w-14 md:w-16 h-full absolute -right-6 sm:-right-7 md:-right-8 rounded-full  flex flex-col justify-around items-center shadow-sm shadow-[#b7fcab38]">
 						<a
 							href="https://github.com/sivatharun2212"
 							rel="noreferrer"
 							target="_blank">
 							<LuGithub
 								size={20}
-								color="#00ffbf"
+								color="#b7fcab"
 							/>
 						</a>
 						<a
@@ -25,7 +25,7 @@ const SocialSection = () => {
 							target="_blank">
 							<FaLinkedinIn
 								size={20}
-								color="#00ffbf"
+								color="#b7fcab"
 							/>
 						</a>
 						<a
@@ -34,7 +34,7 @@ const SocialSection = () => {
 							target="_blank">
 							<SiLeetcode
 								size={20}
-								color="#00ffbf"
+								color="#b7fcab"
 							/>
 						</a>
 						<a
@@ -43,7 +43,7 @@ const SocialSection = () => {
 							target="_blank">
 							<FaInstagram
 								size={20}
-								color="#00ffbf"
+								color="#b7fcab"
 							/>
 						</a>
 					</div>
